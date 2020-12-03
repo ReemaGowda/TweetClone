@@ -20,10 +20,10 @@ class Twitter extends Component {
   render() {
     return (
       <div className="container">
-        <TwitterFollowButton screenName={"kayak"} />
+        <TwitterFollowButton screenName={"world health organization"} />
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="kayak"
+          screenName="who"
           options={{ height: 900 }}
         />
       </div>
